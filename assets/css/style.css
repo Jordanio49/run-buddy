@@ -56,11 +56,11 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
+  background: #fce138;
+  padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #fce138;
-  padding: 40px 35px;
   width: 100%;
 }
 
@@ -172,18 +172,20 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
+
 .intro p {
-  text-align: center;
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
+  text-align: center;
 }
 /* WHAT YOU DO STYLES END */
 
+
 /* WHAT YOU DO STYLES START */
-.steps {
+.steps { 
   background: #fce138;
 }
 
@@ -204,18 +206,19 @@ section {
   flex: 1 30%;
 }
 
-.step-info{
+.step-info {
   flex: 2 70%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .step-img {
   flex: 1 12%;
   margin-right: 20px;
 }
 
-.step-img img{
+.step-img img {
   max-width: 100%;
 }
 
@@ -233,6 +236,7 @@ section {
   line-height: 1.5;
   color: #024e76;
 }
+
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
@@ -246,9 +250,9 @@ section {
 
 .trainer {
   margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  flex: 1;
 }
 
 .trainer img {
@@ -280,6 +284,10 @@ section {
   background: #024e76;
 }
 
+.contact h2 {
+  color: #fce138;
+}
+
 .contact-info {
   display: flex;
   justify-content: space-between;
@@ -289,10 +297,6 @@ section {
 .contact-info > * {
   flex: 1;
   margin: 15px;
-}
-
-.contact h2 {
-  color: #fce138;
 }
 
 .contact-info iframe {
@@ -313,10 +317,6 @@ section {
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-}
-
-.contact-info a {
-  color: #fce138;
 }
 
 .contact-form input, .contact-form textarea {
@@ -340,6 +340,11 @@ section {
   font-size: 16px;
 }
 
+.contact-info a {
+  color: #fce138;
+}
+
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -352,5 +357,5 @@ section {
 }
 
 .flex-row {
-  font-display: flex;
+  display: flex;
 }
